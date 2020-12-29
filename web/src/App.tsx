@@ -2,7 +2,7 @@ export function App() {
   return (
     <>
       <div>
-        <h1>Ola mundo</h1>
+        <h1>First render</h1>
       </div>
     </>
   )
