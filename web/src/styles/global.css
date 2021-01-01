@@ -1,5 +1,5 @@
 :root {
-  font-size: 60%;
+  font-size: 60%; /* 9,6px */
 
   --color-background: #f0f0f7;
   --color-primary-lighter: #9871f5;
@@ -50,7 +50,7 @@ input,
 button,
 textarea {
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.6rem; /* 16px */
   font-family: Poppins;
   color: var(--color-text-base);
 }
