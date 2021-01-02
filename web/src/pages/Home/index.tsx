@@ -5,6 +5,8 @@ import studyIcon from '../../assets/images/icons/study.svg'
 import landingSvg from '../../assets/images/landing.svg'
 import logoSvg from '../../assets/images/logo.svg'
 
+import './styles.css'
+
 export function Home() {
   return (
     <div id="page-home">
@@ -21,11 +23,11 @@ export function Home() {
         />
 
         <div className="button-container">
-          <a href="#">
+          <a href="#" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
           </a>
-          <a href="#">
+          <a href="#" className="give-classes">
             <img src={giveClassesIcon} alt="Dar Aulas" />
             Dar aulas
           </a>
