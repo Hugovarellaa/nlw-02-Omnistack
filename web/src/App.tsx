@@ -1,9 +1,5 @@
-import { Home } from './pages/Home'
+import { Routes } from './router'
 
 export function App() {
-  return (
-    <>
-      <Home />
-    </>
-  )
+  return <Routes />
 }
