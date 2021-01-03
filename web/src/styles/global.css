@@ -35,6 +35,7 @@ body,
 
 body {
   background: var(--color-background);
+  color: var(--color-text-base);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
